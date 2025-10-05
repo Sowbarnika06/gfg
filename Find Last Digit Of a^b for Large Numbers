@@ -1,0 +1,6 @@
+class Solution:
+    def getLastDigit(self, a, b):
+        a=int(a)
+        b=int(b)
+        c=pow(a,b,10)
+        return c
